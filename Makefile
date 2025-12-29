@@ -11,7 +11,7 @@ install:
 	apt-get install python python-pip nano
 	apt-get install clang ncurses-utils xh
 	apt-get install ossp-uuid openssl openssl-tool
-	python -m pip install -r Data/requirements.txt
+	python -m pip install -r requirements.txt
 	@npm -g i bash-obfuscate
 	@gem install lolcat
 	@clear
@@ -22,8 +22,8 @@ update:
 	@git pull
 
 run:
-	@printf "Buat yang error saat menjalankan\nKetik ketik Perintah: make update\nDan Perintah: python atasii_error.py\n"
+	@printf "Loading ,, sabar\n"
 	@python run.py
 
 reset:
-	@rm run.sh
+	@rm run.py
